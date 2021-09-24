@@ -110,6 +110,9 @@ proxy:
 proxyInit:
   # -- Default set of inbound ports to skip via itpables
   ignoreInboundPorts: ""
+  # -- Log Format(plain or json) for proxyInit
+    # @default -- plain 
+  logFormat: ""
   # -- Default set of outbound ports to skip via itpables
   ignoreOutboundPorts: ""
   image:
